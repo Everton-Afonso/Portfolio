@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Design tokens — portfolio
+  Accent: orange used sparingly (CTA, badges, icons, highlights, decorative dots)
+*/
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 15%;
+
+    --surface: 240 24% 96%;
+    --surface-contrast: 0 0% 100%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 15%;
+
+    --primary: 28 100% 50%;
+    --primary-hover: 24 100% 45%;
+    --primary-foreground: 0 0% 8%;
+    --primary-soft: 32 100% 95%;
+
+    --accent: 28 100% 50%;
+    --accent-text: 16 88% 34%;
+    --accent-foreground: 0 0% 8%;
+
+    --muted: 240 20% 96%;
+    --muted-foreground: 0 0% 46%;
+
+    --border: 240 16% 92%;
+    --input: 240 16% 90%;
+    --ring: 28 100% 50%;
+
+    --success: 142 71% 45%;
+
+    --radius: 1rem;
+
+    --section-pad: 5rem;
+
+    /* Layout reservations for the fixed sidebars (single source of truth). */
+    --layout-sidebar-left: 20rem;
+    --layout-sidebar-right: 5rem;
+  }
+
+  @media (min-width: 768px) {
+    :root {
+      --section-pad: 7rem;
+    }
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  section[id] {
+    scroll-margin-top: 5.5rem;
+  }
+
+  ::selection {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-[var(--section-pad)];
+  }
+
+  .section-surface {
+    @apply bg-surface;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition:
+      opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal[data-visible='true'] {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-delay-1 {
+    transition-delay: 0.08s;
+  }
+
+  .reveal-delay-2 {
+    transition-delay: 0.16s;
+  }
+
+  .reveal-delay-3 {
+    transition-delay: 0.24s;
+  }
+
+  .reveal-delay-4 {
+    transition-delay: 0.32s;
+  }
+
+  .grid-surface {
+    background-image:
+      linear-gradient(to right, hsl(var(--border)) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--border)) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  .dot-pattern {
+    background-image: radial-gradient(hsl(var(--border)) 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+
+  /* Viewport height with a fallback for browsers without dvh support. */
+  .h-viewport {
+    height: 100vh;
+    height: 100dvh;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

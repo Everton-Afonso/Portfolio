@@ -1,0 +1,197 @@
+{
+  "common": {
+    "name": "Everton Afonso",
+    "role": "Desenvolvedor Full Stack",
+    "todo": "TODO: ADD REAL INFORMATION",
+    "skipToContent": "Pular para o conteúdo",
+    "language": "Idioma",
+    "scroll": "Role para explorar"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "skills": "Skills",
+    "resume": "Currículo",
+    "contact": "Contato",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "menu": "Menu",
+    "primary": "Navegação principal",
+    "switchLanguage": "Switch to English",
+    "hire": "Fale comigo"
+  },
+  "hero": {
+    "badge": "Desenvolvedor Full Stack",
+    "titleLine1": "Construindo experiências digitais",
+    "titleHighlight": "escaláveis.",
+    "description": "Desenvolvedor focado em React, TypeScript, e-commerce, integrações e performance web.",
+    "primaryCta": "Ver projetos",
+    "secondaryCta": "Baixar currículo",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "codeCardLabel": "developer.config.ts",
+    "terminalLabel": "terminal",
+    "metricsTitle": "Em que eu entrego valor",
+    "stackLine": "React · VTEX · Performance"
+  },
+  "technologies": {
+    "eyebrow": "Stack",
+    "title": "Tecnologias com as quais trabalho",
+    "description": "Ferramentas do dia a dia para construir, integrar e manter produtos web.",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ecommerce": "E-commerce",
+      "database": "Dados",
+      "tooling": "Ferramentas"
+    }
+  },
+  "about": {
+    "eyebrow": "Sobre",
+    "title": "Sobre mim",
+    "paragraph1": "Sou desenvolvedor Full Stack com foco em React e TypeScript, construindo e mantendo aplicações de e-commerce no ecossistema VTEX.",
+    "paragraph2": "Trabalho com desenvolvimento de componentes, serviços e middlewares, integrações com APIs internas e externas, investigação e correção de problemas em produção e otimização de performance.",
+    "paragraph3": "Meu foco é entregar código de qualidade, arquitetura organizada e uma boa experiência de uso — do desenvolvimento à produção.",
+    "indicators": {
+      "frontend": "Frontend",
+      "ecommerce": "E-commerce",
+      "performance": "Performance",
+      "api": "Integração de APIs"
+    },
+    "highlightTitle": "Como eu trabalho",
+    "highlights": {
+      "quality": "Qualidade de código",
+      "performance": "Performance como requisito",
+      "collaboration": "Comunicação clara e trabalho em time",
+      "ownership": "Responsabilidade do desenvolvimento à produção"
+    }
+  },
+  "projects": {
+    "eyebrow": "Portfólio",
+    "title": "Projetos em destaque",
+    "description": "Trabalhos que representam minha atuação em e-commerce, frontend e performance.",
+    "viewCase": "Ver estudo de caso",
+    "github": "Código no GitHub",
+    "live": "Ver online",
+    "technologies": "Tecnologias",
+    "status": {
+      "completed": "Concluído",
+      "in-progress": "Em andamento"
+    },
+    "categories": {
+      "ecommerce": "E-commerce",
+      "frontend": "Frontend",
+      "performance": "Performance",
+      "developer-tools": "Developer Tools",
+      "chrome-extension": "Chrome Extension",
+      "web-applications": "Web Applications"
+    },
+    "inProgress": {
+      "eyebrow": "Agora",
+      "title": "No que estou trabalhando",
+      "description": "Projetos em desenvolvimento e próximos passos."
+    }
+  },
+  "experience": {
+    "eyebrow": "Trajetória",
+    "title": "Experiência profissional",
+    "description": "Atuação em e-commerce, frontend e integrações.",
+    "roleLabel": "Cargo",
+    "periodLabel": "Período",
+    "technologiesLabel": "Tecnologias"
+  },
+  "expertise": {
+    "eyebrow": "Expertise",
+    "title": "O que eu trago para um projeto",
+    "description": "Áreas em que consigo assumir responsabilidade do começo ao fim.",
+    "itemLabel": "Competência"
+  },
+  "performance": {
+    "eyebrow": "Engineering",
+    "title": "Performance é parte do produto.",
+    "description": "Não trato performance como ajuste final: ela entra na arquitetura, no desenvolvimento e na revisão de cada entrega.",
+    "note": "Métricas reais exibidas aqui após a instrumentação do projeto — nenhum número fictício."
+  },
+  "resume": {
+    "eyebrow": "Currículo",
+    "title": "Meu currículo",
+    "description": "Versão resumida do meu perfil profissional. O PDF completo está disponível para download.",
+    "download": "Baixar currículo",
+    "downloadLanguage": "Baixar em {{language}}",
+    "sections": {
+      "summary": "Resumo profissional",
+      "experience": "Experiência",
+      "skills": "Competências técnicas",
+      "projects": "Projetos",
+      "education": "Formação",
+      "languages": "Idiomas"
+    },
+    "summary": "Desenvolvedor Full Stack com experiência em React, TypeScript, e-commerce (VTEX IO), integrações de APIs e otimização de performance web.",
+    "skills": {
+      "frontend": "React, TypeScript, JavaScript, Next.js, HTML, CSS",
+      "backend": "Node.js, REST APIs, GraphQL",
+      "ecommerce": "VTEX IO, Headless Commerce, integrações",
+      "data": "PostgreSQL, Prisma",
+      "tooling": "Git, ESLint, Prettier"
+    },
+    "projectsText": "E-commerce VTEX, Performance Intelligence, Chrome Extension e outros projetos — veja a seção Projetos.",
+    "currentLanguage": "Português"
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Vamos construir algo juntos.",
+    "description": "Tem um projeto, uma vaga ou uma ideia? Me escreva — respondo o mais rápido possível.",
+    "email": "E-mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "Seu nome",
+      "email": "E-mail",
+      "emailPlaceholder": "voce@empresa.com",
+      "message": "Mensagem",
+      "messagePlaceholder": "Conte um pouco sobre o projeto ou a oportunidade.",
+      "send": "Enviar mensagem",
+      "note": "O envio abre seu aplicativo de e-mail com a mensagem pronta."
+    },
+    "validation": {
+      "name": "Informe seu nome.",
+      "email": "Informe um e-mail válido.",
+      "message": "Escreva uma mensagem."
+    }
+  },
+  "footer": {
+    "tagline": "Desenvolvedor Full Stack focado em React, e-commerce e performance.",
+    "navigation": "Navegação",
+    "social": "Redes",
+    "rights": "Todos os direitos reservados.",
+    "builtWith": "Feito com React, TypeScript e Tailwind CSS.",
+    "stack": "React · TypeScript · Tailwind CSS"
+  },
+  "profile": {
+    "label": "Perfil profissional",
+    "availability": "Disponível para projetos",
+    "photoAlt": "Foto de perfil de {{name}}",
+    "info": {
+      "title": "Informações",
+      "experience": "Experiência",
+      "location": "Localização",
+      "availability": "Disponibilidade"
+    },
+    "languages": {
+      "title": "Idiomas",
+      "pt": "Português",
+      "en": "Inglês"
+    },
+    "skills": {
+      "title": "Habilidades técnicas",
+      "additional": "Competências adicionais"
+    }
+  },
+  "seo": {
+    "title": "Everton Afonso — Desenvolvedor Full Stack",
+    "description": "Portfólio de Everton Afonso, Desenvolvedor Full Stack focado em React, TypeScript, e-commerce (VTEX) e performance web."
+  }
+}
